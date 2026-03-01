@@ -15,20 +15,29 @@ This system allows administrators to:
 🛠️ Tech Stack
 🔹Backend
 -Java 17
+
 -Spring Boot
+
 -Spring Data JPA
+
 -Hibernate
+
 -MySQL
+
 -Maven
 
 🔹Frontend
 -HTML
+
 -CSS
+
 -JavaScript
 
 🔹Tools
 -Eclipse IDE
+
 -Postman (API Testing)
+
 -Git & GitHub
 
 
