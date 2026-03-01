@@ -1,0 +1,67 @@
+
+.navbar {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  padding: 18px 8%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: all 0.4s ease;
+  z-index: 1000;
+  background: transparent;
+}
+
+/* When Scrolled */
+.navbar.scrolled {
+  background: rgba(15, 23, 42, 0.85);
+  backdrop-filter: blur(12px);
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
+}
+
+/* Logo */
+.logo-text {
+  font-size: 22px;
+  font-weight: 700;
+  color: #38bdf8;
+}
+
+/* Nav Links */
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 30px;
+}
+
+.nav-links li a {
+  text-decoration: none;
+  color: #e2e8f0;
+  font-weight: 500;
+  position: relative;
+  transition: 0.3s;
+}
+
+/* Hover underline animation */
+.nav-links li a::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -6px;
+  width: 0%;
+  height: 2px;
+  background: #38bdf8;
+  transition: width 0.3s ease;
+}
+
+.nav-links li a:hover::after {
+  width: 100%;
+}
+
+/* Active Link */
+.nav-links li a.active-link {
+  color: #38bdf8;
+}
+
+.nav-links li a.active-link::after {
+  width: 100%;
+}
