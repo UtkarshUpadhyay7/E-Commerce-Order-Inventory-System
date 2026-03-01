@@ -52,11 +52,17 @@ This system allows administrators to:
 🏗️ Project Architecture
 
 Controller Layer
+
       ↓
+      
 Service Layer
+
       ↓
+      
 Repository Layer (JPA)
+
       ↓
+      
 MySQL Database
 
 The application follows a clean layered architecture to ensure:
@@ -97,10 +103,14 @@ The application follows a clean layered architecture to ensure:
 
 
 📂 Project Structure
+
 ECOM_NEW
+
 │
 ├── E-CommerceOrder        → Spring Boot Backend
+
 ├── ECommerce-Frontend     → Frontend UI
+
 └── README.md
 
 
